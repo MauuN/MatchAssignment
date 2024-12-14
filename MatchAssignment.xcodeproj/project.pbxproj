@@ -13,6 +13,10 @@
 		B1B98C842D0D7602002CFA3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B98C832D0D7602002CFA3B /* ContentView.swift */; };
 		B1B98C862D0D7603002CFA3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B98C852D0D7603002CFA3B /* Assets.xcassets */; };
 		B1B98C8A2D0D7603002CFA3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B98C892D0D7603002CFA3B /* Preview Assets.xcassets */; };
+		B1B98C912D0D7956002CFA3B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B98C902D0D7956002CFA3B /* NetworkManager.swift */; };
+		B1B98C932D0D7976002CFA3B /* MatchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B98C922D0D7976002CFA3B /* MatchListViewModel.swift */; };
+		B1B98C952D0D799A002CFA3B /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B98C942D0D799A002CFA3B /* MatchListView.swift */; };
+		B1B98C972D0D79C3002CFA3B /* MatchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B98C962D0D79C3002CFA3B /* MatchCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B1B98C852D0D7603002CFA3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1B98C872D0D7603002CFA3B /* MatchAssignment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatchAssignment.entitlements; sourceTree = "<group>"; };
 		B1B98C892D0D7603002CFA3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1B98C902D0D7956002CFA3B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B1B98C922D0D7976002CFA3B /* MatchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListViewModel.swift; sourceTree = "<group>"; };
+		B1B98C942D0D799A002CFA3B /* MatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
+		B1B98C962D0D79C3002CFA3B /* MatchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				B1B98C872D0D7603002CFA3B /* MatchAssignment.entitlements */,
 				B1B98C802D0D7602002CFA3B /* MatchAssignment.xcdatamodeld */,
 				B1B98C882D0D7603002CFA3B /* Preview Content */,
+				B1B98C902D0D7956002CFA3B /* NetworkManager.swift */,
+				B1B98C922D0D7976002CFA3B /* MatchListViewModel.swift */,
+				B1B98C942D0D799A002CFA3B /* MatchListView.swift */,
+				B1B98C962D0D79C3002CFA3B /* MatchCardView.swift */,
 			);
 			path = MatchAssignment;
 			sourceTree = "<group>";
@@ -145,9 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B98C972D0D79C3002CFA3B /* MatchCardView.swift in Sources */,
 				B1B98C7D2D0D7602002CFA3B /* MatchAssignmentApp.swift in Sources */,
 				B1B98C822D0D7602002CFA3B /* MatchAssignment.xcdatamodeld in Sources */,
+				B1B98C912D0D7956002CFA3B /* NetworkManager.swift in Sources */,
 				B1B98C842D0D7602002CFA3B /* ContentView.swift in Sources */,
+				B1B98C932D0D7976002CFA3B /* MatchListViewModel.swift in Sources */,
+				B1B98C952D0D799A002CFA3B /* MatchListView.swift in Sources */,
 				B1B98C7F2D0D7602002CFA3B /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

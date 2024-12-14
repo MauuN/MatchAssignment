@@ -13,7 +13,7 @@ struct MatchAssignmentApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MatchListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
